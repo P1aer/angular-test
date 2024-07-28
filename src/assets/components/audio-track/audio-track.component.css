@@ -1,0 +1,30 @@
+.audio-track {
+  display: flex;
+  padding: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px transparent solid;
+}
+.audio-track:hover {
+  border-radius: 6px;
+  border: 1px rgba(20, 61, 55, 0.93) solid;
+}
+
+.audio-track img {
+  width: 64px;
+  height: 64px;
+  object-fit: fill;
+  margin-right: 8px;
+}
+.audio-track__head {
+  display: flex;
+  align-items: center;
+}
+.audio-track__head-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}

@@ -1,0 +1,20 @@
+<script src="../../../../../angular-test/src/app/components/list/list.component.ts"></script>
+<div class="audio-track">
+  <div class="audio-track__head">
+    <ng-container *ngIf="trackData.picture">
+      <img [src]="trackData.picture" alt="track pic">
+    </ng-container>
+    <div class="audio-track__head-text">
+      <div style="font-weight: bold">
+        {{trackData.title}}
+      </div>
+      <div>
+        {{GetAuthorsString}}
+      </div>
+    </div>
+
+  </div>
+  <div class="audio-track__end">
+    {{GetToMinutesSeconds}}
+  </div>
+</div>
