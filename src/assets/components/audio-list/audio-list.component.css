@@ -1,1 +1,7 @@
-
+.list__wrapper {
+  padding: 1rem;
+  color: var(--app-text-color)
+}
+.list__wrapper h1{
+  color: var(--app-anti-color)
+}

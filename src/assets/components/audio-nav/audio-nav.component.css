@@ -1,0 +1,54 @@
+.audio-nav__logo img{
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+.audio-nav__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.active {
+  text-decoration: underline;
+  color: var(--app-anti-color) !important;
+}
+.audio-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #242424;
+}
+.audio-nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.audio-nav__list a{
+  font-size: 24px;
+  color: var(--app-text-color);
+}
+
+.audio-nav__avatar img {
+  width: 54px;
+  height: 54px;
+  cursor: pointer;
+  background: #222;
+  border-radius: 50%;
+}
+.audio-nav__avatar {
+  padding: 0.35rem;
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+}
+.audio-nav__settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 10%;
+}

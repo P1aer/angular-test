@@ -5,10 +5,16 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  border-radius: 6px;
+  transition: border 0.3s ease-in;
   border: 1px transparent solid;
 }
+.audio-track__head-title {
+  font-size: 20px;
+  color: var(--app-anti-color);
+}
 .audio-track:hover {
-  border-radius: 6px;
+  cursor: pointer;
   border: 1px rgba(20, 61, 55, 0.93) solid;
 }
 
@@ -17,6 +23,7 @@
   height: 64px;
   object-fit: fill;
   margin-right: 8px;
+  border-radius: 8px;
 }
 .audio-track__head {
   display: flex;

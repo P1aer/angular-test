@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --app-main-color: #fff;
+  --app-main-font-size: 16px;
+  --app-secondary-color: #d5d2d2;
+  --app-text-color: #1a1a1a;
+  --app-anti-color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ html {
+   transition: background-color 0.25s ease-in;
+   background-color: var(--app-main-color);
+   font-size: var(--app-main-font-size);
+ }

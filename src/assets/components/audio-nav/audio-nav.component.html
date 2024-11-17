@@ -1,0 +1,26 @@
+<div class="audio-nav">
+  <div style="display: flex; align-items: center">
+    <div class="audio-nav__logo">
+      <img [src]="'assets/images/pepejam.png'">
+      <h1>Mujic</h1>
+    </div>
+    <ul class="audio-nav__list">
+      <li>
+        <a routerLink="/"
+           routerLinkActive="active">
+          Главная
+        </a>
+
+      </li>
+    </ul>
+  </div>
+
+  <div class="audio-nav__settings">
+    <div>
+      <app-b-switch [styleMainColor]="switcherMain" [styleSecondaryColor]="switcherSec" [switchValue]="themeChecker" (switchChange)="changeTheme($event)"/>
+    </div>
+    <div class="audio-nav__avatar ">
+      <img [src]="'assets/images/avatar.jpg'">
+    </div>
+  </div>
+</div>
